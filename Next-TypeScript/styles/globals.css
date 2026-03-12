@@ -1,0 +1,150 @@
+/* Global resets and body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Main layout container */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Product listing card */
+.product-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+
+/* Image styling inside cards */
+.product-item img {
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+/* Buttons */
+button {
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Login form layout */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+}
+
+/* Product detail container */
+.dish-details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Detail page heading */
+.dish-details-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Product image styling */
+.dish-image {
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Product description text */
+.dish-details-container p {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 0.5rem 0;
+}
+
+/* View details or back button on detail page */
+.order-button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #0070f3;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #005ec2;
+}
+
+/* Not found message */
+.dish-not-found {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .product-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-item img {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .login-form {
+    width: 90%;
+  }
+}

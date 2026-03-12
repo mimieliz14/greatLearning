@@ -1,0 +1,63 @@
+import { Product } from "../types";
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "headphones",
+    description: "Wireless noise-cancelling",
+    image: "/images/headphones.jpg",
+    price: 200,
+    specs: ["Bluetooth 5.0", "Noise Cancelling", "20h Battery"],
+  },
+  {
+    id: "2",
+    name: "laptop",
+    description: "HP Pavilion Laptop",
+    image: "/images/laptop.jpg",
+    price: 1100,
+    specs: [
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD",
+      "15.6 Full HD Display",
+      "Windows 11",
+    ],
+  },
+  {
+    id: "3",
+    name: "phone",
+    description: "Android smartphone",
+    image: "/images/phone.jpg",
+    price: 760,
+    specs: [
+      "128GB Storage",
+      "6GB RAM",
+      "6.5 inch AMOLED Display",
+      "5000mAh Battery",
+      "5G Support",
+    ],
+  },
+   {
+      id: "1",
+      name: "Smartphone",
+      description: "Latest 5G enabled smartphone",
+      image: "/images/phone.jpg",
+      price: 699,
+      specs: ["128GB", "6GB RAM", "OLED Display"],
+    },
+    {
+      id: "2",
+      name: "Laptop",
+      description: "High-performance laptop for developers",
+      image: "/images/laptop.jpg",
+      price: 1299,
+      specs: ["16GB RAM", "512GB SSD", "Intel i7"],
+    },
+    {
+      id: "3",
+      name: "Headphones",
+      description: "Noise-cancelling wireless headphones",
+      image: "/images/headphones.jpg",
+      price: 199,
+      specs: ["Bluetooth 5.0", "20hr battery", "Noise Cancellation"],
+    },
+];
